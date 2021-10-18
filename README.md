@@ -1,1 +1,2 @@
-Tutorial based on django polls https://docs.djangoproject.com/en/3.2/intro/tutorial01/
+- Tutorial based on django polls https://docs.djangoproject.com/en/3.2/intro/tutorial01/
+- Original polls repo: https://github.com/do-community/django-polls/tree/master/polls
