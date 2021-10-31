@@ -17,11 +17,13 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="{% url 'polls:index' %}">Home <span class="sr-only"></span></a>
                   </li>
+
                 </ul>
+                <label class="font-weight-bold">Hello, {{ user }}</label>
               </div>
             </nav>
         {% endblock %}
