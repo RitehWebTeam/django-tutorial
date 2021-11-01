@@ -16,4 +16,5 @@
     <br>
     <input class="btn btn-primary" type="submit" value="Vote">
     </form>
+    <a href="{% url 'polls:results' question.id %}"><button class="btn btn-default">See results</button></a>
 {% endblock body %}
