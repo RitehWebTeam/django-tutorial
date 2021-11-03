@@ -36,6 +36,10 @@ def detail(request, question_id):
 
 Go to file tests.py and add the following code.
 ```python
+from django.test import TestCase, Client
+from django.contrib.auth.models import User
+...
+class StaffUserTests(TestCase):
     def setUp(self):
         username = 'staff_user'
         password = 'test123'
